@@ -37,7 +37,6 @@ body {
 .product-card {
     border-radius: 20px;
     width: 300px;
-    overflow: hidden;
     box-shadow: 0 4px 16px rgba(19, 21, 139, 0.1);
 }
 
@@ -53,6 +52,7 @@ body {
 .product-image {
     width: 100%;
     transition: 0.3s;
+    border-radius: 15px;
 }
 
 .product-image:hover{
@@ -61,13 +61,12 @@ body {
 
 .product-image-container {
     position: relative;
-    overflow: hidden;
 }
 
 .discount {
     position: absolute;
-    top: 5px;
-    right:5px;
+    top: -5px;
+    right: -3px;
     background-color: red;
     border-radius: 20px;
     text-align: center;
